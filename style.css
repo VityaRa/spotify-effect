@@ -45,7 +45,11 @@ button {
   border: 0;
   padding: 30px;
   max-width: 100px;
+  transition: .3s;
+}
 
+.btn__choose:hover {
+  transform: scale(1.1);
 }
 
 
