@@ -9,6 +9,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
+  border: 0;
+}
+
+.btn__container button {
+  margin-right: 40px;
+}
+
+.btn__container button:last-child {
+  margin-right: 0;
 }
 
 body {
@@ -20,23 +30,53 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0,rgb(0, 0, 0, 1) 100%);
   min-height: 400px;
 }
 
 button {
+  border-radius: 5px;
+}
+
+.btn__choose {
   color: #fff;
   cursor: pointer;
   border: 0;
   padding: 30px;
+  max-width: 100px;
+
 }
 
-.red {
+
+.input_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+input {
+  outline: none;
+  height: 30px;
+  border-radius: 50px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.input__color, .text {
   margin-right: 20px;
+
 }
 
-.blue {
+.text {
+  padding-left: 10px;
+  color: #000;
 }
 
-.ctn {
+.btn__create {
+  color: #000;
+  height: 40px;
+  padding: 0 5px;
+  cursor: pointer;
 }
